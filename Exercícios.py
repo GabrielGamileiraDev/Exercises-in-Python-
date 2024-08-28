@@ -1,9 +1,52 @@
+#01 question
+
+nome = "Maria Silva"
+email = "maria_silva@gmail.com"
+idade = 30
+print(nome)
+print(email)
+print(idade)
+
+#02 question
+
+idade = int(input("Insira sua idade:"))
+resultado = int(idade*12)
+print("Sua idade em meses é de:", resultado, ".")
+
+
+#03 question
+
+nome = str(input("Insira seu nome:"))
+endereco = str(input("Insira seu endereço:"))
+telefone = int(input("Insira seu número de telefone:"))
+cidade = str(input("Insira o nome da sua cidade:"))
+
+print("Olá,", nome, ". Seu endereço é:", endereco, "Seu número de telefone é:", telefone, "Residente de:", cidade)
+
+
+#04 question
+
+raio = int(input("Digite o raio de um círculo ->"))
+pi = float(3.14)
+perimetro = 2*pi*raio
+print("O perimetro do seu círculo é aproximadamente:", perimetro)
+
 
 #05 question
-
+aluno01 = str(input("Digite o nome do aluno:"))
 media1 = int(input("Digite sua primeira nota"))
 media2= int(input("Digite sua segunda nota"))
-print ((media1+media2)/2)
+nota_final = (media1+media2)/2
+
+aluno02 = str(input("Digite a nota do 2° aluno:"))
+media1 = int(input("Digite sua primeira nota"))
+media2= int(input("Digite sua segunda nota"))
+resultado = (media1+media2)/2
+
+diferenca = (nota_final - resultado)
+
+print("A diferença entre eles é em média de:", diferenca, ".")
+
 
 #06 question
 
